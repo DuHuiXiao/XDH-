@@ -2,11 +2,18 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+title: 首页
+# 图标
+heroImage: /assets/gif/lxh.gif
+# 朝四周变淡
+heroImageStyle: {
+  mask: 'radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 72%)'
+}
+# 标题
 heroText: XDH的个人博客
-heroFullScreen: true
-tagline: 好开心哦
+heroFullScreen: false
+# 副标题
+tagline: 天天开心
 projects:
   - icon: project
     name: 项目名称
@@ -40,9 +47,3 @@ projects:
 
 footer: 自定义你的页脚文字
 ---
-
-这是一个博客主页的案例。
-
-要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。
