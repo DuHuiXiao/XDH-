@@ -45,5 +45,5 @@ projects:
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: 自定义你的页脚文字
+footer: 天天快乐，吃嘛嘛香！
 ---
