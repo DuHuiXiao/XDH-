@@ -20,6 +20,7 @@
     "vuepress-theme-hope": "2.0.0-rc.59"
   },
   "dependencies": {
-    "@vuepress/plugin-comment": "2.0.0-rc.20"
+    "@vuepress/plugin-comment": "2.0.0-rc.20",
+    "@vuepress/plugin-pwa": "2.0.0-rc.56"
   }
 }

@@ -24,5 +24,5 @@ export default defineUserConfig({
   ],
 
   // 和 PWA 一起启用
-  // shouldPrefetch: false,
+  shouldPrefetch: false,
 });
